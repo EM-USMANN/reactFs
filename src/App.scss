@@ -1,0 +1,20 @@
+$primary: #1d3557;
+
+
+@import "./scss/bootstrap";
+
+
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+};
+
+main{
+    flex: 1 0 auto;
+}
+
+.formcss{
+    max-width: 500px;
+}
